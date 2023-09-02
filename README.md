@@ -45,6 +45,30 @@
 |title|String|Título o nombre de la lista de reproducción|
 |songs|List<Long>|Lista de las canciones que forman parte de la lista|
 |cover_image|String|URL o ruta de la imagen de portada de la lista|
+
+#### Configuración de archivos
+
+```
+DEMO
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── demo  (🌟Alta Importancia🌟)
+│   │   │               └── DemoApplication.java  (Punto de entrada de la aplicación Spring Boot)
+│   │   └── resources
+│   │       └── application.properties  (🌟Alta Importancia🌟: Configuraciones de la aplicación)
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── demo
+│                       └── DemoApplicationTests.java  (Pruebas unitarias)
+├── .gitignore  (Especifica archivos a ignorar en el control de versiones)
+├── pom.xml  (Archivo de construcción y dependencias de Maven)
+├── mvnw  (Herramienta de envoltura de Maven que asegura la versión correcta de Maven sin requerir su instalación)
+```
   
 ### Paso 01: Configuración Inicial
 
