@@ -14,7 +14,7 @@
 ## Requisitos Previos :memo:
 
 * Tener instalado y configurado **Java** (v.17 LTS) Development Kit (JDK) instalado en tu sistema. Recomendamos utilizar la distribución de Amazon (*JDK Corretto*): [Linux](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/generic-linux-install.html) | [macOS](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/macos-install.html) | [Windows](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/windows-7-install.html)
-* Tener instalado [Docker](https://www.docker.com/products/docker-desktop/) 
+* Tener instalado [Docker](https://www.docker.com/products/docker-desktop/) desktop
 * Tener instalado y configurado **Visual Studio Code**.
 
 ## Instrucciones :mega:
