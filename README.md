@@ -56,7 +56,23 @@ DEMO
 │   │   │   └── com
 │   │   │       └── example
 │   │   │           └── demo  (🌟Alta Importancia🌟)
-│   │   │               └── DemoApplication.java  (Punto de entrada de la aplicación Spring Boot)
+|   |   |               └── core
+│   │   │               |   └── application
+|   |   |               |       └── DemoApplication.java  (Punto de entrada de la aplicación Spring Boot)
+|   |   |               └── song
+|   |   |               |   └── domain
+|   |   |               |   |   └── Song.java
+|   |   |               |   |   └── SongService.java
+|   |   |               |   |   └── SongRepository.java
+|   |   |               |   └── application
+|   |   |               |   |   └── SongController.java
+|   |   |               └── playlist
+|   |   |               |   └── domain
+|   |   |               |   |   └── Playlist.java
+|   |   |               |   |   └── PlaylistService.java
+|   |   |               |   |   └── PlaylistRepository.java
+|   |   |               |   └── application
+|   |   |               |   |   └── PlaylistController.java
 │   │   └── resources
 │   │       └── application.properties  (🌟Alta Importancia🌟: Configuraciones de la aplicación)
 │   └── test
