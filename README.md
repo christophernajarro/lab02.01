@@ -227,36 +227,6 @@ public class Song {
 
     private String spotifyUrl;
 
-    package com.example.demo;
-
-import jakarta.persistence.*;
-
-import java.util.Date;
-
-@Entity
-@Table(name = "song")
-public class Song {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false)
-    private Long id;
-
-    private String title;
-
-    private String artist;
-
-    private String album;
-
-    private Date releaseDate;
-
-    private String genre;
-
-    private Integer duration;
-
-    private String coverImage;
-
-    private String spotifyUrl;
-
     public Song() {}
 
     public Song(Long id, String title, String artist, String album, Date releaseDate, String genre, Integer duration, String coverImage, String spotifyUrl) {
