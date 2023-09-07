@@ -56,9 +56,8 @@ DEMO
 │   │   │   └── com
 │   │   │       └── example
 │   │   │           └── demo  (🌟Alta Importancia🌟)
-|   |   |               └── core
-│   │   │               |   └── application
-|   |   |               |       └── DemoApplication.java  (Punto de entrada de la aplicación Spring Boot)
+|   |   |               └── DemoApplication.java  (Punto de entrada de la aplicación Spring Boot)
+|   |   |               |
 |   |   |               └── song
 |   |   |               |   └── domain
 |   |   |               |   |   └── Song.java
