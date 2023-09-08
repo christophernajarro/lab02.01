@@ -61,14 +61,12 @@ DEMO
 |   |   |               └── song
 |   |   |               |   └── domain
 |   |   |               |   |   └── Song.java
-|   |   |               |   |   └── SongService.java
 |   |   |               |   |   └── SongRepository.java
 |   |   |               |   └── application
 |   |   |               |       └── SongController.java
 |   |   |               └── playlist
 |   |   |               |   └── domain
 |   |   |               |   |   └── Playlist.java
-|   |   |               |   |   └── PlaylistService.java
 |   |   |               |   |   └── PlaylistRepository.java
 |   |   |               └── └── application
 |   |   |                      └── PlaylistController.java
